@@ -1,0 +1,242 @@
+* {
+       -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+header, section, footer, aside, nav, main, article, figure {
+       display: block;
+   }
+
+/* For mobile phones: */
+[class*="col- colsb-"] {
+       width: 100%;
+     }
+     
+     @media only screen and (min-width: 600px) {
+       /* For tablets: */
+       .col-s-1 {width: 8.33%;}
+       .col-s-2 {width: 16.66%;}
+       .col-s-3 {width: 25%;}
+       .col-s-4 {width: 33.33%;}
+       .col-s-5 {width: 41.66%;}
+       .col-s-6 {width: 50%;}
+       .col-s-7 {width: 58.33%;}
+       .col-s-8 {width: 66.66%;}
+       .col-s-9 {width: 75%;}
+       .col-s-10 {width: 83.33%;}
+       .col-s-11 {width: 91.66%;}
+       .col-s-12 {width: 100%;}
+       .col-s-41 {width: 100%;
+              font-size: 2vw;
+              font-style: italic;
+              font-weight: bold
+       }
+     }
+    
+     @media only screen and (max-width: 800px) {
+       [class*="col-s-41"] {
+              background-color: lightskyblue;
+              text-align: center;}
+              li{
+                     width: 100%
+              }
+             
+       }
+       @media only screen and (max-width: 800px) {
+              section.im {
+                     display: none;
+                     }
+              }
+
+     @media only screen and (min-width: 768px) {
+       /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.colsb-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.colsb-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.colsb-6 {width: 50%;}
+.colsbm-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.colsb-12{width: 100%;}
+.colf-4{width: 25%;
+       position: relative;
+       left: 37%;
+       right: 30%;}
+}
+
+     
+[class*="col-"] {
+       float: left;
+       padding: 15px;
+       border: 0.1vw solid rgb(0, 0, 53);
+}
+[class*="colsb-"] {
+              float: left;
+              padding: 15px;
+}
+[class*="colsbm-"] {
+       float: right;
+       padding: 15px;}
+
+      
+
+.en{
+       display: none;
+     }
+
+     
+[class*="col-"] {
+       float: left;
+       padding: 15px;
+       border: 0.1vw solid rgb(0, 0, 53);
+}
+[class*="colsb-"] {
+              float: left;
+              padding: 15px;
+}
+[class*="colsbm-"] {
+       float: right;
+       padding: 15px;}
+
+      
+
+     body{
+       width: 100%;
+       margin: 0 auto;
+     }
+     body{
+       background-image: url("../imagenes-html/fondo1.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-color: rgba(0, 255, 255, 0.164);}
+
+
+
+header{
+       background-image: url("../imagenes-html/fondo2.jpg");
+       background-repeat: no-repeat;
+       background-color: rgb(161, 134, 65);
+       background-size: cover;
+       
+}
+
+img.logo{
+       width: 100%;
+       height: auto;
+       padding: 0px;
+       margin: 0px;
+}
+
+span.nombre{
+       font-size: 8vw;
+       font-style: italic;
+       text-align: right;
+}
+span.nombre{
+       padding: 5%;
+}
+
+nav{
+       text-align: center;
+       font-size: 2vw;
+       font-style: italic;
+       font-weight: bold;
+       width: 100%;
+       height: auto;
+            
+}
+ul.na li{
+       background-color: lightskyblue;
+       
+}
+.navflag{
+       width: 1.5vw;
+       height: 1.5vw;
+
+}
+button{
+       background-color: black;
+}
+ul.na li:hover{
+       background-color: goldenrod;
+}
+h1.ca{
+       font-size: 4vw;
+       font-style: italic;
+       text-align: center;
+       background-color: whitesmoke;
+}
+h1.ca{
+       width: 100%;
+       height:auto;
+}
+div.men{
+       font-size: 1.5vw;
+       font-style: oblique;
+       text-align: center;
+       color: black;
+       background-color: whitesmoke;
+}
+div.men2{
+       font-size: 1.5vw;
+       font-style: oblique;
+       text-align: center;
+       color: black;
+       background-color: whitesmoke;
+}
+ol{
+       line-height: 110%;
+}
+ul{
+       line-height: 110%;
+}
+footer{
+       background-image: url("../imagenes-html/fondo5.jpg");
+       background-color: rgb(0, 0, 53);
+       background-size: cover;
+       width: 100%;
+       height: auto;
+       color:  rgb(0, 0, 53);
+
+}
+p.fp{
+       font-size: 3vw;
+       font-style: italic;
+}
+.list1 li.col-3 a{
+       font-family: Arial;
+       font-size: 3vw;
+       font-weight: bold;
+       text-decoration: none;
+       text-align: center;
+       padding: 0px;
+       
+}
+.list1 li.col-3  a{
+              margin-top: 2px;
+       padding-bottom: 12px;
+       
+}
+
+span.links{
+       color: rgb(0, 0, 53) ;
+       font-size: 2vw;
+       font-style: italic;
+       font-weight: bold;
+       
+       
+}
+
+ul.col-s-41 li:hover{
+       background-color: goldenrod;
+}
+
